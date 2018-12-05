@@ -1,0 +1,39 @@
+
+#' @importFrom dplyr as_tibble
+#' @importFrom dplyr filter
+#' @importFrom dplyr group_by
+#' @importFrom dplyr if_else
+#' @importFrom dplyr mutate
+#' @importFrom dplyr n
+#' @importFrom dplyr n_distinct
+#' @importFrom dplyr one_of
+#' @importFrom dplyr select
+#' @importFrom dplyr summarise
+#' @importFrom dplyr transmute
+#' @importFrom dplyr type_sum
+#' @importFrom dplyr ungroup
+#' @importFrom ggplot2 aes
+#' @importFrom ggplot2 facet_wrap
+#' @importFrom ggplot2 geom_bar
+#' @importFrom ggplot2 geom_histogram
+#' @importFrom ggplot2 ggplot
+#' @importFrom ggplot2 ggplot_build
+#' @importFrom ggplot2 labs
+#' @importFrom ggplot2 theme
+#' @importFrom purrr compact
+#' @importFrom purrr map_chr
+#' @importFrom purrr map_df
+#' @importFrom purrr map_dbl
+#' @importFrom purrr map_int
+#' @importFrom purrr map_lgl
+#' @importFrom purrr pluck
+#' @importFrom purrr set_names
+#' @importFrom rlang !!
+#' @importFrom rlang !!!
+#' @importFrom rlang .data
+#' @importFrom rlang enquo
+#' @importFrom rlang quo_name
+
+"_PACKAGE"
+
+utils::globalVariables(".")
